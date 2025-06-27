@@ -50,13 +50,6 @@ Open `codes.ipynb` in Jupyter Notebook or JupyterLab and run all cells. The note
 - Train the model for a specified number of epochs
 - Save the trained model as `yoloObjectdetection_cat_dog_model.pth`
 
-**Example training output:**
-```
-Epoch 1 Loss: 484.0259
-Epoch 2 Loss: 1119.0332
-...
-Epoch 10 Loss: 27.9706
-Model saved successfully!
 ```
 
 ---
@@ -67,14 +60,6 @@ The notebook includes code to evaluate the trained model and compute mAP:
 - Decodes predictions and targets
 - Applies non-max suppression
 - Calculates AP for each class and overall mAP
-
-**Example evaluation output:**
-```
-Evaluating model on training data...
-AP for cat: 0.1234
-AP for dog: 0.2345
-mAP: 0.1789
-```
 
 ---
 
